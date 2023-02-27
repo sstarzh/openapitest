@@ -247,7 +247,7 @@
       "money_transfer": {
         "required": [
           "account",
-          "amount",
+          "amountt",
           "currency",
           "friend"
         ],
