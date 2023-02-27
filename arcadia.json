@@ -267,7 +267,8 @@
             "type": "string"
           },
           "friend": {
-            "type": "string"
+            "type": "integer",
+            "format": "int64"
           },
            "random": {
             "type": "string"
