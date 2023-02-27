@@ -247,13 +247,14 @@
       "money_transfer": {
         "required": [
           "account",
-          "amountt",
+          "amount",
           "currency",
-          "friend"
+          "friend",
+          "random"
         ],
         "type": "object",
         "properties": {
-          "amountt": {
+          "amount": {
             "type": "integer",
             "format": "int64"
           },
@@ -265,6 +266,9 @@
             "type": "string"
           },
           "friend": {
+            "type": "string"
+          },
+           "random": {
             "type": "string"
           }
         }
