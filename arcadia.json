@@ -144,44 +144,6 @@
         }
       }
     },
-    "/api/rest/execute_money_transfer.php": {
-      "post": {
-        "summary": "Transfer money to a friend",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/money_transfer"
-              },
-              "example": {
-                "amount": "92",
-                "account": "2075894",
-                "currency": "GBP",
-                "friend": "Vincent"
-              }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "description": "200 response",
-            "content": {
-              "application/json": {
-                "example": {
-                  "name": "Vincent",
-                  "status": "success",
-                  "currency": "GBP",
-                  "transid": "524569855",
-                  "msg": "The money transfer has been successfully completed"
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
   "components": {
     "schemas": {
       "buy": {
