@@ -249,7 +249,8 @@
           "account",
           "amount",
           "currency",
-          "friend"
+          "friend",
+          "blah"
         ],
         "type": "object",
         "properties": {
@@ -267,6 +268,9 @@
           "friend": {
             "type": "integer",
             "format": "int64"
+          },
+          "blah": {
+            "type": "string"
           }
         }
       }
