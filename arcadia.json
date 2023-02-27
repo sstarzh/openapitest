@@ -253,7 +253,7 @@
         ],
         "type": "object",
         "properties": {
-          "amount": {
+          "amountt": {
             "type": "integer",
             "format": "int64"
           },
