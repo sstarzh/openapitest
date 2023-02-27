@@ -144,7 +144,7 @@
         }
       }
     },
-    "/api/rest/execute_transfer.php": {
+    "/api/rest/execute_mony_transfer.php": {
       "post": {
         "summary": "Transfer money to a friend",
         "requestBody": {
