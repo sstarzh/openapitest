@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "API Arcadia Finance",
+    "title": "API Arcadia Finances",
     "description": "Arcadia OpenAPI",
     "version": "2.0.2-oas3"
   },
