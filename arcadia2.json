@@ -13,7 +13,7 @@
   "paths": {
     "/api/lower_bar.php": {
       "get": {
-        "summary": "get lower barsdsdsdaaaaaaaa",
+        "summary": "get lower barsdsdsdaafdfdgfdaaaaaa",
         "responses": {
           "200": {
             "description": "200 resvsgadfdfgdddddddsp"
